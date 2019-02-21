@@ -169,16 +169,16 @@
           <img src="https://tup-notifications.s3.amazonaws.com/dots.001.png" style="max-width: 100%">
 
 
-          <#assign users_top_brand_id="2518">
-          <#data brands="" as="" brand="">
-            <#filter brand_id="users_top_brand_id">
-            <#fields brand_name="">
-              <table width="650" style="width: 650px;">
+          <#assign users_top_brand_id = 2518>
+          <#data brands as brand>
+            <#filter BRAND_ID=users_top_brand_id>
+            <#fields brand_name>
+              <table width="100%">
                 <tr>
                   <td width="200" align="center" style="text-align: center;">Your top brand is ${brands.brand_name}</td>
                 </tr>
               </table>
-          </#fields></#filter></#data>
+          </#data>
 
           <!-- HERO Container START -->
 
