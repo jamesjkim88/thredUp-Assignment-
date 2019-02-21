@@ -6,115 +6,70 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <style type="text/css">
+@media only screen and (max-width: 490px) {
+  .container {
+    width: 490px !important;
+    background-color: yellow;
+  }
 
-    .container{
-      width: 650px;
-    }
+  .content {
+    width: 490px;
+  }
 
-    .content{
-      width: 650px;
-    }
+  .content table {
+    width: 490px;
+  }
 
-    .content table{
-      width: 650px;
-    }
+  .logo {
+    width: 490px !important;
+  }
 
-    .logo{
-      width: 650px;
-    }
+  .logo-img {
+    padding: 30px 0 15px 0;
+  }
 
-    .footer-container{
-      width: 650px;
-    }
+  .nav-links {
+    width: 490px !important;
+  }
 
-    .footer-content{
-      width: 650px;
-    }
+  .nav-link {
+    border-top: 1px solid #ab9160;
+    width: 490px !important;
+    padding: 15px 0;
+  }
 
-    .footer-content table{
-      width: 100%;
-    }
+  .footer-content {
+    width: 490px !important;
+  }
 
-    .mobile-row{
-      display: none;
-    }
+  .mobile-row {
+    display: table-row !important;
+  }
 
-    .nav-links{
-      width: 650px;
-    }
-
-    /* .nav-link{
-      padding: 0px 0px 10px 0px;
-    } */
-
-    .nav-links table{
-      width: 100%;
-    }
-
-    @media only screen and (max-width: 490px){
-      .container{
-        width: 490px !important;
-        background-color: yellow;
-      }
-
-      .content{
-        width: 490px;
-      }
-
-      .content table{
-        width: 490px;
-      }
-
-      .logo{
-        width: 490px !important;
-      }
-
-      .logo-img{
-        padding: 30px 0 15px 0;
-      }
-
-      .nav-links{
-        width: 490px !important;
-      }
-
-      .nav-link{
-        border-top: 1px solid #ab9160;
-        width: 490px !important;
-        padding: 15px 0;
-      }
-
-      .footer-content{
-        width: 490px !important;
-      }
-
-      .mobile-row{
-        display: table-row !important;
-      }
-      .desktop-row{
-        display: none !important;
-      }
-    }
-
-  </style>
+  .desktop-row {
+    display: none !important;
+  }
+}
+</style>
 </head>
 <body style="margin: 0; padding: 0;">
 
   <center>
-    <table class="container" border="0" cellpadding="0" cellspacing="0">
+    <table class="container" border="0" cellpadding="0" cellspacing="0" style="width: 650px;" width="650">
       <tr>
-        <td class="content" bgcolor="#ffffff" align="center" style="border:1px solid #dddddd;  display: block;">
+        <td class="content" bgcolor="#ffffff" align="center" style="width: 650px; border: 1px solid #dddddd; display: block;" width="650">
 
           <!-- thredUP HEADER START -->
           <!-- HEADER Container START -->
-          <table border="0" cellpadding="0" cellspacing="0">
+          <table border="0" cellpadding="0" cellspacing="0" style="width: 650px;" width="650">
             <!-- desktop view -->
             <tr class="desktop-row">
-              <td bgcolor="#ffffff" align="center" class="logo">
+              <td bgcolor="#ffffff" align="center" class="logo" style="width: 650px;" width="650">
                 <!-- Wrapper START -->
-                <table border="0" cellpadding="0" cellspacing="0"  width="100%">
+                <table border="0" cellpadding="0" cellspacing="0" width="650" style="width: 650px;">
                   <tr>
                     <td align="center">
-                      <a href="https://www.thredup.com/my?link_name=header_Logo_dressingRoom"  title="My thredUP »" style="display:block;text-decoration: none; text-align: left;">
+                      <a href="https://www.thredup.com/my?link_name=header_Logo_dressingRoom" title="My thredUP »" style="display:block;text-decoration: none; text-align: left;">
                         <img alt="thredUP" src="https://tup-notifications.s3.amazonaws.com/tup-logo.jpg" style="height: 27px;padding: 20px 20px 0px 20px; width:120px;">
                       </a>
                     </td>
@@ -124,13 +79,13 @@
             </tr>
 
             <!-- Mobile view -->
-            <tr class="mobile-row">
-              <td bgcolor="#ffffff" align="center" class="logo">
+            <tr class="mobile-row" style="display: none;">
+              <td bgcolor="#ffffff" align="center" class="logo" style="width: 650px;" width="650">
                 <!-- Wrapper START -->
-                <table border="0" cellpadding="0" cellspacing="0"  width="100%" style="margin: 0 auto;">
+                <table border="0" cellpadding="0" cellspacing="0" width="650" style="width: 650px; margin: 0 auto;">
                   <tr>
                     <td class="logo-img" align="center">
-                      <a href="https://www.thredup.com/my?link_name=header_Logo_dressingRoom"  title="My thredUP »" style="display:block;text-decoration: none;">
+                      <a href="https://www.thredup.com/my?link_name=header_Logo_dressingRoom" title="My thredUP »" style="display:block;text-decoration: none;">
                         <img alt="thredUP" src="https://tup-notifications.s3.amazonaws.com/tup-logo.jpg" style="height: 27px; width:120px; margin:0 auto;" align="center">
                       </a>
                     </td>
@@ -141,32 +96,28 @@
 
             <!-- Desktop view -->
             <tr class="desktop-row">
-              <td class="nav-links">
-                <table border="0" cellpadding="0" cellspacing="0">
+              <td class="nav-links" style="width: 650px;" width="650">
+                <table border="0" cellpadding="0" cellspacing="0" style="width: 100%;" width="100%">
                   <tr>
                     <td align="center" id="navigation" style="vertical-align: middle;">
-                      <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-bottom: 1px #a89164 solid;">
+                      <table border="0" cellpadding="0" cellspacing="0" width="100%" style="width: 100%; border-bottom: 1px #a89164 solid;">
                         <tr>
                           <td style="vertical-align: bottom; padding-left:20px; " width="100%">
-                            <table border="0" cellpadding="0" cellspacing="0" style="text-align: left;" width="100%">
+                            <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; text-align: left;" width="100%" align="left">
                               <tr>
                                 <td>
-                                  <a href="https://www.thredup.com/order-kit?link_name=TopNav_Text1_CleanOut"   style="font-family: ArialMT;font-size: 15px;padding: 0px 0px 10px 0px; color: #4C4C4C;display:block;text-decoration: none;letter-spacing: 0.4px;"
-                                  title="Order a Kit »">CLEAN OUT</a>
+                                  <a href="https://www.thredup.com/order-kit?link_name=TopNav_Text1_CleanOut" style="font-family: ArialMT;font-size: 15px;padding: 0px 0px 10px 0px; color: #4C4C4C;display:block;text-decoration: none;letter-spacing: 0.4px;" title="Order a Kit »">CLEAN OUT</a>
                                 </td>
                                 <td>
-                                  <a href="https://www.thredup.com/products/women?department_tags=women&link_name=TopNav_Text2_WomensClothing"   style="font-family: ArialMT;font-size: 15px;padding: 0px 20px 10px 0px;color: #4C4C4C;display:block;text-decoration: none;letter-spacing: 0.4px;"
-                                  title="Shop Women »">WOMEN</a>
+                                  <a href="https://www.thredup.com/products/women?department_tags=women&link_name=TopNav_Text2_WomensClothing" style="font-family: ArialMT;font-size: 15px;padding: 0px 20px 10px 0px;color: #4C4C4C;display:block;text-decoration: none;letter-spacing: 0.4px;" title="Shop Women »">WOMEN</a>
                                 </td>
 
                                 <td>
-                                  <a href="https://www.thredup.com/p/kids?link_name=TopNav_Text3_Kids"  style="font-family: ArialMT;font-size: 15px;padding: 0px 0px 10px 0px;color: #4C4C4C;display:block;text-decoration: none;letter-spacing: 0.4px;"
-                                  title="Shop Kids »">KIDS</a>
+                                  <a href="https://www.thredup.com/p/kids?link_name=TopNav_Text3_Kids" style="font-family: ArialMT;font-size: 15px;padding: 0px 0px 10px 0px;color: #4C4C4C;display:block;text-decoration: none;letter-spacing: 0.4px;" title="Shop Kids »">KIDS</a>
                                 </td>
 
                                 <td>
-                                  <a href="https://www.thredup.com/invites"  style="font-family: ArialMT;font-size: 15px;padding: 0px 0px 10px 0px;color: #4C4C4C;display:block;text-decoration: none;letter-spacing: 0.4px;"
-                                  title="Shop Kids »">SHOP TO EARN</a>
+                                  <a href="https://www.thredup.com/invites" style="font-family: ArialMT;font-size: 15px;padding: 0px 0px 10px 0px;color: #4C4C4C;display:block;text-decoration: none;letter-spacing: 0.4px;" title="Shop Kids »">SHOP TO EARN</a>
                                 </td>
                               </tr>
                             </table>
@@ -180,31 +131,27 @@
             </tr>
 
             <!-- Mobile view -->
-            <tr class="mobile-row">
-              <td class="nav-links">
-                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-bottom: 1px #a89164 solid;">
+            <tr class="mobile-row" style="display: none;">
+              <td class="nav-links" style="width: 650px;" width="650">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="width: 100%; border-bottom: 1px #a89164 solid;">
                   <tr>
                     <td class="nav-link" align="center">
-                      <a href="https://www.thredup.com/order-kit?link_name=TopNav_Text1_CleanOut"   style="text-align: center;font-family: ArialMT;font-size: 15px; color: #4C4C4C;display:block;text-decoration: none;letter-spacing: 0.4px;"
-                      title="Order a Kit »">CLEAN OUT</a>
+                      <a href="https://www.thredup.com/order-kit?link_name=TopNav_Text1_CleanOut" style="text-align: center;font-family: ArialMT;font-size: 15px; color: #4C4C4C;display:block;text-decoration: none;letter-spacing: 0.4px;" title="Order a Kit »">CLEAN OUT</a>
                     </td>
                   </tr>
                   <tr>
                     <td class="nav-link" align="center">
-                      <a href="https://www.thredup.com/products/women?department_tags=women&link_name=TopNav_Text2_WomensClothing"   style="text-align: center;font-family: ArialMT;font-size: 15px;color: #4C4C4C;display:block;text-decoration: none;letter-spacing: 0.4px;"
-                      title="Shop Women »">WOMEN</a>
+                      <a href="https://www.thredup.com/products/women?department_tags=women&link_name=TopNav_Text2_WomensClothing" style="text-align: center;font-family: ArialMT;font-size: 15px;color: #4C4C4C;display:block;text-decoration: none;letter-spacing: 0.4px;" title="Shop Women »">WOMEN</a>
                     </td>
                   </tr>
                   <tr>
                     <td class="nav-link" align="center">
-                      <a href="https://www.thredup.com/p/kids?link_name=TopNav_Text3_Kids"  style="text-align: center;font-family: ArialMT;font-size: 15px;color: #4C4C4C;display:block;text-decoration: none;letter-spacing: 0.4px;"
-                      title="Shop Kids »">KIDS</a>
+                      <a href="https://www.thredup.com/p/kids?link_name=TopNav_Text3_Kids" style="text-align: center;font-family: ArialMT;font-size: 15px;color: #4C4C4C;display:block;text-decoration: none;letter-spacing: 0.4px;" title="Shop Kids »">KIDS</a>
                     </td>
                   </tr>
                   <tr>
                     <td class="nav-link" align="center">
-                      <a href="https://www.thredup.com/invites"  style="text-align: center;font-family: ArialMT;font-size: 15px;color: #4C4C4C;display:block;text-decoration: none;letter-spacing: 0.4px;"
-                      title="Shop Kids »">SHOP TO EARN</a>
+                      <a href="https://www.thredup.com/invites" style="text-align: center;font-family: ArialMT;font-size: 15px;color: #4C4C4C;display:block;text-decoration: none;letter-spacing: 0.4px;" title="Shop Kids »">SHOP TO EARN</a>
                     </td>
                   </tr>
                 </table>
@@ -222,16 +169,16 @@
           <img src="https://tup-notifications.s3.amazonaws.com/dots.001.png" style="max-width: 100%">
 
 
-          <#assign users_top_brand_id = 2518>
-          <#data brands as brand>
-            <#filter BRAND_ID=users_top_brand_id>
-            <#fields brand_name>
-              <table width="100%">
+          <#assign users_top_brand_id="2518">
+          <#data brands="" as="" brand="">
+            <#filter brand_id="users_top_brand_id">
+            <#fields brand_name="">
+              <table width="650" style="width: 650px;">
                 <tr>
                   <td width="200" align="center" style="text-align: center;">Your top brand is ${brands.brand_name}</td>
                 </tr>
               </table>
-          </#data>
+          </#fields></#filter></#data>
 
           <!-- HERO Container START -->
 
@@ -240,42 +187,42 @@
 
           <!-- HERO END -->
           <!-- FOOTER NAV Container -->
-          <table class="footer-container" border="0" cellpadding="0" cellspacing="0" width="100%">
+          <table class="footer-container" border="0" cellpadding="0" cellspacing="0" width="650" style="width: 650px;">
             <tr>
-              <td class="footer-content" bgcolor="#ffffff" align="center">
+              <td class="footer-content" bgcolor="#ffffff" align="center" style="width: 650px;" width="650">
                 <!-- Wrapper Table Start -->
-                <table border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+                <table border="0" cellspacing="0" cellpadding="0" align="center" width="100%" style="width: 100%;">
                   <tr>
                     <td align="center" style="border-top:1px solid #ab9160;">
-                      <a title="Share to Earn $10 »" href="https://www.thredup.com/invites?link_name=nav_text_share10"   style="font-family:'ArialMT', Arial, Helvetica, sans-serif; color:#444444; font-size:20px; font-weight:bold; text-decoration:none; display: block; padding:25px 0px;">
+                      <a title="Share to Earn $10 »" href="https://www.thredup.com/invites?link_name=nav_text_share10" style="font-family:'ArialMT', Arial, Helvetica, sans-serif; color:#444444; font-size:20px; font-weight:bold; text-decoration:none; display: block; padding:25px 0px;">
                         SHARE TO EARN $10
                       </a>
                     </td>
                   </tr>
                   <tr>
                     <td align="center" style="border-top:1px solid #ab9160;">
-                      <a title="Visit thredUP" href="https://www.thredup.com?link_name=nav_text_homepage"  style="font-family:'ArialMT', Arial, Helvetica, sans-serif; color:#444444; font-size:20px; font-weight:bold; text-decoration:none; display: block; padding:25px 0px;">
+                      <a title="Visit thredUP" href="https://www.thredup.com?link_name=nav_text_homepage" style="font-family:'ArialMT', Arial, Helvetica, sans-serif; color:#444444; font-size:20px; font-weight:bold; text-decoration:none; display: block; padding:25px 0px;">
                         SHOP
                       </a>
                     </td>
                   </tr>
                   <tr>
                     <td align="center" style="border-top:1px solid #ab9160;">
-                      <a title="Women's Styles at thredUP" href="https://www.thredup.com/products/women?link_name=nav_text_women"  style="font-family:'ArialMT', Arial, Helvetica, sans-serif; color:#444444; font-size:20px; font-weight:bold; text-decoration:none; display: block; padding:25px 0px;">
+                      <a title="Women's Styles at thredUP" href="https://www.thredup.com/products/women?link_name=nav_text_women" style="font-family:'ArialMT', Arial, Helvetica, sans-serif; color:#444444; font-size:20px; font-weight:bold; text-decoration:none; display: block; padding:25px 0px;">
                         WOMEN
                       </a>
                     </td>
                   </tr>
                   <tr>
                     <td align="center" style="border-top:1px solid #ab9160;">
-                      <a title="Order a Clean Out Bag" href="https://www.thredup.com/order-kit?link_name=nav_text_CleanOut"  style="font-family:'ArialMT', Arial, Helvetica, sans-serif; color:#444444; font-size:20px; font-weight:bold; text-decoration:none; display: block; padding:25px 0px;">
+                      <a title="Order a Clean Out Bag" href="https://www.thredup.com/order-kit?link_name=nav_text_CleanOut" style="font-family:'ArialMT', Arial, Helvetica, sans-serif; color:#444444; font-size:20px; font-weight:bold; text-decoration:none; display: block; padding:25px 0px;">
                         CLEAN OUT
                       </a>
                     </td>
                   </tr>
                   <tr>
                     <td align="center" style="border-top:1px solid #ab9160; font-family:'ArialMT', Arial, Helvetica, sans-serif; color:#444444; font-size:20px; font-weight:bold;">
-                      <a title="Find Girl's Clothing on thredUP" href="https://www.thredup.com/products/girls?link_name=nav_text_girls"   style="text-decoration:none; display: inline-block; padding:25px 0px; color:#444444;">
+                      <a title="Find Girl's Clothing on thredUP" href="https://www.thredup.com/products/girls?link_name=nav_text_girls" style="text-decoration:none; display: inline-block; padding:25px 0px; color:#444444;">
                         GIRLS
                       </a>
                       &nbsp; | &nbsp;
@@ -293,11 +240,11 @@
 
 
           <!-- FOOTER DETAILS Container -->
-          <table border="0" cellpadding="0" cellspacing="0" width="490">
+          <table border="0" cellpadding="0" cellspacing="0" width="650" style="width: 650px;">
             <tr>
               <td bgcolor="#ffffff" align="center">
                 <!-- Wrapper Table Start -->
-                <table border="0" cellspacing="0" cellpadding="0" align="center" width="490">
+                <table border="0" cellspacing="0" cellpadding="0" align="center" width="650" style="width: 650px;">
                   <tr>
                     <td align="center" style="padding-bottom: 20px; font-family: Helvetica, Arial, sans-serif; font-size: 13px; color:#BBBBBB; text-align:center;" id="address">
                       ThredUp Inc. &bull; 114 Sansome Street &bull; 5th Floor &bull; San Francisco, California 94104
@@ -309,7 +256,7 @@
             </tr>
           </table>
 
-        </td>
+        </#assign></td>
       </tr>
     </table>
   </center>
